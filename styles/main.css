@@ -3,24 +3,52 @@
 .project {
     height: 20rem;
     width: 30%;
-    margin: 0 0.5em 2.5em;
-    cursor: pointer;
+    margin: 0 0.5em 2em;
     position: relative;
     display: block;
     float: left;
     font-family: "Helvetica",
-    sans-serif ;
+    sans-serif;
 }
 
-html {
-    background-color: #E5E6EA;
+.container {
+  width: 96%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  /*overflow: hidden;*/
 }
 
+.nav-button{
+    font-family: "Helvetica";
+    color: #6E6E71;
+    font-size: 1.25em;
+}
+
+a:hover {
+  color: lightcoral;
+}
+
+a {
+	text-decoration: none;
+}
+
+html,
 body {
-    width: 90%;
-    width: 96%;
-    margin-left: auto;
-    margin-right: auto;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+  background-color: #E5E6EA;
+}
+
+nav {
+  text-align: right;
+  margin-top: 1em;
+  word-spacing: 1em;
 }
 
 header {
@@ -35,6 +63,7 @@ h1 {
     font-weight: bold;
     font-size: 2.5em;
     color: #581845;
+    margin-left: 10px;
 }
 
 h2 {
@@ -49,13 +78,42 @@ h3 {
     font-size: 1em;
 }
 
-p.project_context {
+figure {
+    margin-top: 0.25em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figcaption {
+    font-family: "Helvetica", 
+    sans-serif;
     font-weight: bold;
     font-size: 0.75em;
     margin-top: 0.25em;
+    margin-bottom: 0.25em;
 }
 
 p {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 33.75em) {  /* 540px */
+  .container {
+    width: 80%;
+  }
+  div.project {
+    width: 100%;
+    margin-bottom: 6em;
+  }
+}
+
+/*@media only screen and (min-width: 45em) {  /* 720px */
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container {
+    width: 75%;
+    max-width: 60rem;
+  }
 }
