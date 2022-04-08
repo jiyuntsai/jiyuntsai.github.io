@@ -1,7 +1,7 @@
 /* github.jiyuntsai.io main.css */
 
 .project {
-    height: 20rem;
+    height: 22rem;
     width: 30%;
     margin: 0 0.5em 2em;
     position: relative;
@@ -9,6 +9,7 @@
     float: left;
     font-family: "Helvetica",
     sans-serif;
+    /*overflow: hidden;*/
 }
 
 .container {
@@ -22,6 +23,10 @@
     font-family: "Helvetica";
     color: #6E6E71;
     font-size: 1.25em;
+}
+
+.row {
+
 }
 
 a:hover {
