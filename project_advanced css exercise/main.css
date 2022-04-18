@@ -1,0 +1,70 @@
+/*Extra Credit Exercise 2022.04.10_Jiyun Tsai*/
+
+html {
+	font-family: Arial,
+	sans-serif ;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h1:hover {
+	transition-duration: 5s;
+	font-size: 3em;
+	transition-timing-funtion: linear;
+	color: lightseagreen;
+}
+
+/*.dropcap:first-letter {
+	font-family: Georgia,
+	serif ;
+	color: olive;
+	float: left;
+  font-size: 3rem;
+  line-height: 0.5;
+  margin: 0.25em 0.3em 0.2em 0;
+}*/
+
+p:first-of-type:first-letter {
+	font-family: Georgia,
+	serif ;
+	color: olive;
+	float: left;
+  font-size: 3rem;
+  line-height: 0.5;
+  margin: 0.25em 0.3em 0.2em 0;
+}
+
+.button-one {
+  background-color: lightblue;
+  border: solid;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  width: 15%;
+}
+
+.button-one:active {
+	transition-property: width;
+	width: 25%;
+	transition-duration: 2s;
+}
+
+.button-two {
+	background-color: lightcoral;
+  border: solid;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  width: 15%;
+}
+
+.button-two:focus {
+	color: grey;
+	background-color: lavender;
+}
