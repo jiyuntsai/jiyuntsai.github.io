@@ -1,0 +1,91 @@
+/* Intro to Coding Final Project main.css */
+
+html,
+body {
+	font-family: "Georgia",
+	sans-serif;
+	color: #444444;
+	background-color: #fce5e3;
+}
+
+header {
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: center
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: auto;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.75;
+}
+
+figure {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+a {
+	color: #6a8683;
+}
+
+a:hover {
+	color: #b5654f;
+}
+
+
+#map {
+	font-size: 15px;
+	text-align: center;
+	color: #87898c;
+}
+
+.section {
+	display: block;
+}
+
+.illustration_quote {
+	display: block;
+	text-align: center;
+}
+
+.treemap {
+	text-align: center;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
