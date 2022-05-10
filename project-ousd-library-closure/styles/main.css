@@ -34,6 +34,7 @@ figure {
 	text-align: center;
 	margin-left: 0;
 	margin-right: 0;
+	margin-top: 0;
 }
 
 a {
@@ -49,6 +50,7 @@ a:hover {
 	font-size: 15px;
 	text-align: center;
 	color: #87898c;
+	margin-top: 0;
 }
 
 .section {
