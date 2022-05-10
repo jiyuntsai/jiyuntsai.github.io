@@ -138,8 +138,8 @@ body {
     margin-right: -10px;
   }
 
-  iframe {
-    height: 250px;
+  iframe.beforeafter {
+    height: 150px;
   }
 
 }
