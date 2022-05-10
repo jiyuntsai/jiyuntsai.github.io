@@ -46,7 +46,7 @@ a:hover {
 }
 
 
-#map {
+.map {
 	font-size: 15px;
 	text-align: center;
 	color: #87898c;
