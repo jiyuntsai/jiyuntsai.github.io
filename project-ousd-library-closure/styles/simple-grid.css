@@ -138,7 +138,7 @@ body {
     margin-right: -10px;
   }
 
-  iframe.beforeafter {
+  iframe#beforeafter {
     height: 150px;
   }
 
