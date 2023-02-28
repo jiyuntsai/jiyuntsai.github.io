@@ -26,7 +26,8 @@
 }
 
 .row {
-
+    font-family: "Helvetica",
+    sans-serif ;
 }
 
 a:hover {
@@ -34,7 +35,7 @@ a:hover {
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
   color:#581845;
 }
 
