@@ -34,6 +34,13 @@
     margin-right: auto;*/
 }
 
+.nav-section {
+    font-family: "Helvetica";
+    color: #6E6E71;
+    font-size: 1.25em;
+    width: 96%;
+}
+
 a:hover {
   color: lightcoral;
 }
