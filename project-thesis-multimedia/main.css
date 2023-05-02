@@ -35,3 +35,11 @@ header {
 	border-color: #7d5255;
 	margin: 1em 3em;
 }
+
+p {
+	font-size: 1.25em;
+	font-family: "Helvetica",
+	sans-serif;
+	color: #474a4d;
+	margin-top: 0;
+}
