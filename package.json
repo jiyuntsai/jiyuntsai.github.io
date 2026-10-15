@@ -1,0 +1,25 @@
+{
+  "name": "jiyuntsai.github.io",
+  "version": "1.0.0",
+  "description": "Data analysis and visualization journalistic portfolio built during the master's program at UC Berkeley Journalism School. Currently preparing for an update since 2023.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiyuntsai/jiyuntsai.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jiyuntsai/jiyuntsai.github.io/issues"
+  },
+  "homepage": "https://github.com/jiyuntsai/jiyuntsai.github.io#readme",
+  "devDependencies": {
+    "vite": "^8.3.4"
+  }
+}
